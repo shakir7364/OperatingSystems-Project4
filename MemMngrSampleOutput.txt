@@ -1,0 +1,130 @@
+state: Ready	ID: 1	memBase: 0	memLimit: 47
+state: Ready	ID: 2	memBase: 0	memLimit: 26
+state: Ready	ID: 3	memBase: 0	memLimit: 71
+state: Ready	ID: 4	memBase: 0	memLimit: 53
+state: Ready	ID: 5	memBase: 0	memLimit: 74
+state: Ready	ID: 6	memBase: 0	memLimit: 37
+state: Ready	ID: 7	memBase: 0	memLimit: 41
+state: Ready	ID: 8	memBase: 0	memLimit: 29
+state: Ready	ID: 9	memBase: 0	memLimit: 50
+state: Ready	ID: 10	memBase: 0	memLimit: 73
+@0300 Used	state: Ready	ID: 1	memBase: 0	memLimit: 47
+
+@020 QOpen	state: @	ID: 0	memBase: 47	memLimit: 209
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+=====
+@0300 Used	state: Ready	ID: 2	memBase: 47	memLimit: 26
+
+@020 QOpen	state: @	ID: 0	memBase: 73	memLimit: 183
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+=====
+@0300 Used	state: Ready	ID: 3	memBase: 73	memLimit: 71
+
+@020 QOpen	state: @	ID: 0	memBase: 144	memLimit: 112
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+=====
+@0300 Used	state: Ready	ID: 4	memBase: 144	memLimit: 53
+
+@020 QOpen	state: @	ID: 0	memBase: 197	memLimit: 59
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+=====
+
+@020 QOpen	state: @	ID: 0	memBase: 197	memLimit: 59
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+##### No Memory Available for Process:5	needing:74
+@0300 Used	state: Ready	ID: 6	memBase: 197	memLimit: 37
+
+@020 QOpen	state: @	ID: 0	memBase: 234	memLimit: 22
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0200 QUsed	state: Ready	ID: 6	memBase: 197	memLimit: 37
+=====
+
+@020 QOpen	state: @	ID: 0	memBase: 234	memLimit: 22
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0200 QUsed	state: Ready	ID: 6	memBase: 197	memLimit: 37
+##### No Memory Available for Process:7	needing:41
+
+@020 QOpen	state: @	ID: 0	memBase: 234	memLimit: 22
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0200 QUsed	state: Ready	ID: 6	memBase: 197	memLimit: 37
+##### No Memory Available for Process:8	needing:29
+
+@020 QOpen	state: @	ID: 0	memBase: 234	memLimit: 22
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0200 QUsed	state: Ready	ID: 6	memBase: 197	memLimit: 37
+##### No Memory Available for Process:9	needing:50
+
+@020 QOpen	state: @	ID: 0	memBase: 234	memLimit: 22
+@0200 QUsed	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0200 QUsed	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0200 QUsed	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0200 QUsed	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0200 QUsed	state: Ready	ID: 6	memBase: 197	memLimit: 37
+##### No Memory Available for Process:10	needing:73
+@0400 Removing: 1
+@0420 Open	state: @	ID: 0	memBase: 234	memLimit: 22
+@0420 Open	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0440 Used	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0440 Used	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0440 Used	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0440 Used	state: Ready	ID: 6	memBase: 197	memLimit: 37
+=====
+@0400 Removing: 2
+@0420 Open	state: @	ID: 0	memBase: 234	memLimit: 22
+@0420 Open	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0420 Open	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0440 Used	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0440 Used	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0440 Used	state: Ready	ID: 6	memBase: 197	memLimit: 37
+=====
+@0400 Removing: 0
+@0420 Open	state: @	ID: 0	memBase: 234	memLimit: 22
+@0420 Open	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0420 Open	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0420 Open	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0440 Used	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0440 Used	state: Ready	ID: 6	memBase: 197	memLimit: 37
+=====
+@0400 Removing: 1
+@0420 Open	state: @	ID: 0	memBase: 234	memLimit: 22
+@0420 Open	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0420 Open	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0420 Open	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0420 Open	state: Ready	ID: 6	memBase: 197	memLimit: 37
+@0440 Used	state: Ready	ID: 3	memBase: 73	memLimit: 71
+=====
+@0400 Removing: 0
+@0420 Open	state: @	ID: 0	memBase: 234	memLimit: 22
+@0420 Open	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0420 Open	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0420 Open	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0420 Open	state: Ready	ID: 6	memBase: 197	memLimit: 37
+@0420 Open	state: Ready	ID: 3	memBase: 73	memLimit: 71
+=====
+@0500 sorted	state: Ready	ID: 1	memBase: 0	memLimit: 47
+@0500 sorted	state: Ready	ID: 2	memBase: 47	memLimit: 26
+@0500 sorted	state: Ready	ID: 3	memBase: 73	memLimit: 71
+@0500 sorted	state: Ready	ID: 4	memBase: 144	memLimit: 53
+@0500 sorted	state: Ready	ID: 6	memBase: 197	memLimit: 37
+@0500 sorted	state: @	ID: 0	memBase: 234	memLimit: 22
